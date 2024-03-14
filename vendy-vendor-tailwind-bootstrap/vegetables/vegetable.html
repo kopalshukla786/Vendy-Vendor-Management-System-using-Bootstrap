@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Bootstrap Product List Carousel for Ecommerce Website</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<link rel="stylesheet" href="vegetables.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  
+  <!-- navbar -->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">VENDY-VENDOR</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/login/login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/SigNUP/SIGN.HTML">Sign Up</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/fruits/fruit.html">Fruits</a></li>
+              <li><a class="dropdown-item" href="/vegetables/vegetable.html">Vegetables</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+</nav>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Fresh <b>Vegetables</b></h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>   
+			<!-- Wrapper for carousel items -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="potato.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Potato</h4>
+									<p class="item-price"><strike>$400.00</strike> <span>$369.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="lady-fingers.webp" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Lady Finger</h4>
+									<p class="item-price"><strike>$25.00</strike> <span>$23.99</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>		
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="Onion.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Onion</h4>
+									<p class="item-price"><strike>$899.00</strike> <span>$649.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>								
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="cauliflower.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Cauliflower</h4>
+									<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="lady-fingers.webp" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Lady-Finger</h4>
+									<p class="item-price"><strike>$289.00</strike> <span>$269.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="ginger.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Ginger</h4>
+									<p class="item-price"><strike>$1099.00</strike> <span>$869.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-half-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="brinjal.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Brinjal</h4>
+									<p class="item-price"><strike>$109.00</strike> <span>$99.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="cauliflower.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Cauliflower</h4>
+									<p class="item-price"><strike>$599.00</strike> <span>$569.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>						
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="row">
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="green-pumpkin.jpg" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Green-Pumpkin</h4>
+									<p class="item-price"><strike>$369.00</strike> <span>$349.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="spinach.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Spinach</h4>
+									<p class="item-price"><strike>$315.00</strike> <span>$250.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="tomato.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Tomato</h4>
+									<p class="item-price"><strike>$450.00</strike> <span>$418.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>	
+						<div class="col-sm-3">
+							<div class="thumb-wrapper">
+								<div class="img-box">
+									<img src="chili.png" class="img-fluid" alt="">
+								</div>
+								<div class="thumb-content">
+									<h4>Chilli</h4>
+									<p class="item-price"><strike>$350.00</strike> <span>$330.00</span></p>
+									<div class="star-rating">
+										<ul class="list-inline">
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star"></i></li>
+											<li class="list-inline-item"><i class="fa fa-star-o"></i></li>
+										</ul>
+									</div>
+									<a href="#" class="btn btn-primary">Add to Cart</a>
+								</div>						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Carousel controls -->
+			<a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			</a>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2>Fresh <b>Vegetables</b></h2>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="potato.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Potato</h5>
+                            <p class="card-text"><strike>$400.00</strike> <span>$369.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="brinjal.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Brinjal</h5>
+                            <p class="card-text"><strike>$25.00</strike> <span>$23.99</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="Onion.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Onion</h5>
+                            <p class="card-text"><strike>$899.00</strike> <span>$649.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="ginger.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Ginger</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="Cucumber.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cucumber</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="chili.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Chilli</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="green-pumpkin.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Green-Pumpkin</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="spinach.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Spinach</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="tomato.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Tomato</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="cauliflower.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cauliflower</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="Onion.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Onion</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="Cucumber.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cucumber</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="potato.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Potato</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="carrot.png" class="card-img-top" alt="">
+                        <div class="card-body">Carrot</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="cauliflower.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cauliflower</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-sm-3">
+                    <div class="card h-100">
+                        <img src="green-pumpkin.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Green-Pumpkin</h5>
+                            <p class="card-text"><strike>$315.00</strike> <span>$250.00</span></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- cards -->
+<div class="card-group">
+	<div class="card">
+	  <img src="card1.png" class="card-img-top" alt="...">
+	  <div class="card-body">
+		<h5 class="card-title">Orchard Favorites vegetables Basket Gift, 10 Piece Set</h5>
+		<p class="card-text">Nature's vibrant treasures, bundled in the Orchard Favorites Veggie Basket. A delightful medley of freshness and flavors, a gift that nourishes and inspires culinary creations.</p>
+	  </div>
+	  <div class="card-footer">
+		<small class="text-body-secondary">Tropic Abundance vegetables Basket Gift</small>
+	  </div>
+	</div>
+	
+	<div class="card">
+	  <img src="card2.png" class="card-img-top" alt="...">
+	  <div class="card-body">
+		<h5 class="card-title">Golden State vegetables Deluxe Gift</h5>
+		<p class="card-text">Bursting with the golden essence of California, the Golden State Vegetables Deluxe Gift showcases a lavish assortment of premium, sun-kissed produce, inviting you to savor the richness of farm-fresh flavors.</p>
+	  </div>
+	  <div class="card-footer">
+		<small class="text-body-secondary">Last updated 3 mins ago</small>
+	  </div>
+	</div>
+	<div class="card">
+	  <img src="card3.png" class="card-img-top" alt="...">
+	  <div class="card-body">
+		<h5 class="card-title">Tropic Abundance vegetable Basket Gift</h5>
+		<p class="card-text">Indulge in a tropical paradise with the Tropic Abundance Vegetable Basket Gift. Bursting with exotic flavors and vibrant colors, it brings the essence of the tropics to your culinary adventures..</p>
+	  </div>
+	  <div class="card-footer">
+		<small class="text-body-secondary">Last updated 3 mins ago</small>
+	  </div>
+	</div>
+	<div class="card">
+		<img src="card1.png" class="card-img-top" alt="...">
+		<div class="card-body">
+		  <h5 class="card-title">Orchard Favorites vegetables Basket Gift, 10 Piece Set</h5>
+		  <p class="card-text">Nature's vibrant treasures, bundled in the Orchard Favorites Veggie Basket. A delightful medley of freshness and flavors, a gift that nourishes and inspires culinary creations.</p>
+		</div>
+		<div class="card-footer">
+		  <small class="text-body-secondary">Tropic Abundance vegetables Basket Gift</small>
+		</div>
+	  </div>
+  </div>
+  
+<!-- footer -->
+<footer class="text-center text-lg-start bg-dark-subtle text-muted">
+	<!-- Section: Social media -->
+	<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+	  <!-- Left -->
+	  <div class="me-5 d-none d-lg-block">
+		<span>Social Media</span>
+	  </div>
+	  <!-- Left -->
+  
+	  <!-- Right -->
+	  <div>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-facebook-f"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-twitter"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-google"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-instagram"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-linkedin"></i>
+		</a>
+		<a href="" class="me-4 text-reset">
+		  <i class="fab fa-github"></i>
+		</a>
+	  </div>
+	  <!-- Right -->
+	</section>
+	<!-- Section: Social media -->
+  
+	<!-- Section: Links  -->
+	<section class="">
+	  <div class="container text-center text-md-start mt-5">
+		<!-- Grid row -->
+		<div class="row mt-3">
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+			<!-- Content -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  <i class="fas fa-gem me-3"></i><h2>VENDY-VENDOR</h2>
+			</h6>
+			<p>
+			  Here you can pick up or delivery fruits and vegetablesrows and columns at certain cost.
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Fruits
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Apple</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Mango</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Papaya</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Graphes</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+		  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Vegetables
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Potato</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Tomato</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Lady-Finger</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Onion</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+		  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">
+			  Useful links
+			</h6>
+			<p>
+			  <a href="#!" class="text-reset">Pricing</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Settings</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Orders</a>
+			</p>
+			<p>
+			  <a href="#!" class="text-reset">Help</a>
+			</p>
+		  </div>
+		  <!-- Grid column -->
+  
+		  <!-- Grid column -->
+		  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+			<!-- Links -->
+			<h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+			<p><i class="fas fa-home me-3"></i> India,UP-208017, UP</p>
+			<p>
+			  <i class="fas fa-envelope me-3"></i>
+			  info@example.com
+			</p>
+			<p><i class="fas fa-phone me-3"></i>+91 123456789</p>
+			<p><i class="fas fa-print me-3"></i>+91 987654321</p>
+		  </div>
+		  <!-- Grid column -->
+		</div>
+		<!-- Grid row -->
+	  </div>
+	  
+	</section>
+	<!-- Section: Links  -->
+  
+   
+  </footer>
+  
+
+
+
+
+</body>
+</html>                                		

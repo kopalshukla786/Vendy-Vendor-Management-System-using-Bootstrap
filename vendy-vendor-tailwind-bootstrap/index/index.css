@@ -1,0 +1,45 @@
+.main{
+    background: url("background.png") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 55% 55%;
+    width: 100%;
+}
+.main h1{
+    /* font-family: 'Jacques Francois Shadow', cursive; */
+    font-family: 'Noto Serif', serif;
+    font-size: larger;
+    /* color: rgb(236, 42, 42); */
+    /* color:  rgb(238, 23, 123); */
+    color: rgb(151, 77, 235);
+    text-align: center;
+}
+
+.main button{
+    font-family: 'Jacques Francois Shadow', cursive;
+    margin-top: 60px;
+    margin-left: 270px;
+    color:blanchedalmond;
+    cursor: auto;
+    background-color: rgb(238, 23, 123);
+}
+
+.main button:hover{
+    background-color: rgb(164, 26, 233);
+}
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+ }
+ .carousel-item {
+    .col, .col-sm, .col-md {
+       margin: 8px;
+       height: 300px;
+       background-size: cover;
+       background-position: center center;
+    }
+ }
+ 
+
+ 
+ 

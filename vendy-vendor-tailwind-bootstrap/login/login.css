@@ -1,0 +1,21 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #c8e456;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+.border{
+    background-image: url("https://cdn.wallpapersafari.com/8/62/5G7fu0.png");   
+}
+body{
+    background-image: url("https://tse3.mm.bing.net/th?id=OIP.-ec0cby_GBvDehix7JzsqwHaEK&pid=Api&P=0&h=180");
+}
